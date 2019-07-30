@@ -1,0 +1,32 @@
+body,div,p,span,input{
+    margin: 0px;
+    padding: 0px;
+}
+.normalBorder{
+    border: 1px solid;
+}
+.invalidBorder{
+    border: 1px solid red;
+}
+p{
+    position: relative;
+    margin-top: 20px;
+}
+p span{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+p input{
+    position: absolute;
+    left: 100px;
+    width: 200px;
+    height: 20px;
+
+}
+p #tip_username,#tip_password,#tip_repwd,#tip_email{
+    position: absolute;
+    left: 310px;
+    width: 120px;
+    text-align: left;
+}

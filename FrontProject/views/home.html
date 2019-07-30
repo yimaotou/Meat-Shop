@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="../plugins/layui-2.5.4/css/layui.css">
+    <link rel="stylesheet" href="../plugins/custom/css/home.css">
+    <script src="../plugins/layui-2.5.4/layui.js"></script>
+    <script src="../plugins/jquery/jquery-3.4.1.js"></script>
+
+</head>
+<body>
+<div id="home_main">
+    <div id="toBeProcessed" class="box">
+        <span class="tips">待处理订单</span><br>
+        <hr class="layui-bg-gray">
+        <div class="inside">
+            <div class="number" id="new_order">3</div>
+            <div class="type">新订单</div>
+        </div>
+        <div class="inside">
+            <div class="number" id="abnormal_order">4</div>
+            <div class="type">异常订单</div>
+        </div>
+    </div>
+    <div id="overview" class="box">
+        <span class="tips">今日总览</span><br>
+        <hr class="layui-bg-gray">
+        <div class="inside">
+            <div class="number" id="today_orders">3</div>
+            <div class="type">今日订单</div>
+        </div>
+    </div>
+</div>
+<script>
+    //JavaScript代码区域
+    layui.use('element', function(){
+        var element = layui.element;
+
+
+    });
+    $(function () {
+        $("body").width = $(window).width();
+        $("body").height = $(window).height();
+
+    })
+</script>
+
+</body>
+</html>

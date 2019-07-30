@@ -1,0 +1,7 @@
+body,button,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,html,iframe,input,li,ol,p,select,table,td,textarea,th,ul{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 微软雅黑;
+}
